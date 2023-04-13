@@ -1,0 +1,36 @@
+$ cd c:
+
+$ cd dev
+
+$ cd opensw
+
+$ cd experiment
+
+$ git init
+
+$ git add .
+
+$ git commit -m "A"
+
+$ git checkout -b develop
+
+$ git commit -am "B"
+
+$ git checkout master
+
+$ git commit -am "C"
+
+$ git merge develop
+
+$ git checkout develop
+
+$ git commit -am "E"
+
+$ git checkout master
+
+$ git merge develop
+
+$ git checkout develop
+
+$ git log
+
